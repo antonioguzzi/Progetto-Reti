@@ -1,0 +1,29 @@
+------------------------------------------------
+LISTA DI COMANDI PER L'UTILIZZO DEL SERVER WORTH
+------------------------------------------------
+COMANDI PER LA GESTIONE DEGLI ACCOUNT:
+- register [nome utente] [psw]
+- login [nome utente] [psw]
+- quit
+- list_users
+- list_online_users
+------------------------------------------------
+COMANDI PER LA GESTIONE DEI PROGETTI:
+- list_projects
+- create_project [nome del progetto]
+- add_member [nome del progetto] [nome dell'utente]
+- show_members [nome del progetto]
+- cancel_project [nome del progetto]
+------------------------------------------------
+COMANDI PER LA GESTIONE DELLE CARTE:
+- show_cards [nome del progetto]
+- show_card [nome del progetto] [nome della carta]
+- add_card [nome del progetto] [nome della carta] [descrizione della carta]
+- move_card [nome del progetto] [nome della carta] [lista di partenza] [lista di destinazione]
+- get_card_history [nome del progetto] [nome della carta]
+------------------------------------------------
+COMANDI PER LA GESTIONE DELLA CHAT:
+- join_chat [nome del progetto]
+- read_chat [nome del progetto]
+- send_chat_msg [nome del progetto] [msg]
+------------------------------------------------
